@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Recommendation System</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Healthcare Recommendation System</h1>
+        <p>Predict diseases and get personalized healthcare advice</p>
+    </header>
+
+    <main>
+        <section id="form-section">
+            <form action="/predict" method="POST">
+                <label for="symptoms">Enter your symptoms (comma-separated):</label>
+                <input type="text" id="symptoms" name="symptoms" placeholder="e.g., headache, fever, fatigue">
+                <button type="submit">Predict</button>
+            </form>
+        </section>
+
+        {% if predicted_disease %}
+        <section id="result-section">
+            <h2>Prediction Results</h2>
+            <p><strong>Predicted Disease:</strong> {{ predicted_disease }}</p>
+            <h3>Description</h3>
+            <p>{{ dis_des }}</p>
+
+            <h3>Precautions</h3>
+            <ul>
+                {% for precaution in my_precautions %}
+                <li>{{ precaution }}</li>
+                {% endfor %}
+            </ul>
+
+            <h3>Medications</h3>
+            <ul>
+                {% for medication in medications %}
+                <li>{{ medication }}</li>
+                {% endfor %}
+            </ul>
+
+            <h3>Recommended Diet</h3>
+            <ul>
+                {% for diet in my_diet %}
+                <li>{{ diet }}</li>
+                {% endfor %}
+            </ul>
+
+            <h3>Workout Plans</h3>
+            <ul>
+                {% for workout in workout %}
+                <li>{{ workout }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        {% if message %}
+        <section id="error-section">
+            <h3>Error</h3>
+            <p>{{ message }}</p>
+        </section>
+        {% endif %}
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Healthcare Recommendation System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
