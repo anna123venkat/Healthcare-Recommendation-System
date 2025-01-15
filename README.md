@@ -106,6 +106,6 @@ project-directory/
 We express our gratitude to the management, faculty, and staff of **Mepco Schlenk Engineering College**, Sivakasi, for their continuous support and guidance.
 
 ## Contributors
-- **Abhishek S**
-- **Manoj S**
-- **Prasanna Venkatesh S**
+- **[Abhishek S](https://github.com/Abishek9342)**
+- **[Manoj S](https://github.com/Jonam-2004)**
+- **[Prasanna Venkatesh S](https://github.com/anna123venkat)**
