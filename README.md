@@ -9,7 +9,6 @@ This project implements a comprehensive **Healthcare Recommendation System** tha
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
 - [Results](#results)
-- [Acknowledgments](#acknowledgments)
 - [Contributors](#contributors)
 
 ## Overview
@@ -101,9 +100,6 @@ project-directory/
   ![Symptom Input](Results/Entering_the_Symptoms.png)
 - **Predicted Disease with Recommendations**:
   ![Predicted Disease](Results/Predicted_Disease.png)
-
-## Acknowledgments
-We express our gratitude to the management, faculty, and staff of **Mepco Schlenk Engineering College**, Sivakasi, for their continuous support and guidance.
 
 ## Contributors
 - **[Abhishek S](https://github.com/Abishek9342)**
