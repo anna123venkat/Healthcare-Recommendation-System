@@ -95,8 +95,8 @@ project-directory/
 
 ## Results
 ### Sample Output
-- **Home Page**:
-  ![Home Page](Results/Home Page.png)
+- **Home Page**
+  ![Home Page](Results/Home_Page.png)
 - **Symptom Input**:
   ![Symptom Input](Results/Entering the Symptoms.png)
 - **Predicted Disease with Recommendations**:
