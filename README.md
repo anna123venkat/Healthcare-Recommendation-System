@@ -75,7 +75,7 @@ project-directory/
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/Healthcare-Recommendation-System.git
+   git clone https://github.com/anna123venkat/Healthcare-Recommendation-System.git
    cd Healthcare-Recommendation-System
    ```
 2. Prepare the datasets:
