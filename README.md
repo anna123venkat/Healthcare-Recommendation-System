@@ -96,11 +96,11 @@ project-directory/
 ## Results
 ### Sample Output
 - **Home Page**:
-  ![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Placeholder)
+  ![Home Page](Results/Home Page.png)
 - **Symptom Input**:
-  ![Symptom Input](https://via.placeholder.com/800x400?text=Symptom+Input+Placeholder)
+  ![Symptom Input](Results/Entering the Symptoms.png)
 - **Predicted Disease with Recommendations**:
-  ![Predicted Disease](https://via.placeholder.com/800x400?text=Predicted+Disease+Placeholder)
+  ![Predicted Disease](Results/Predicted Disease.png)
 
 ## Acknowledgments
 We express our gratitude to the management, faculty, and staff of **Mepco Schlenk Engineering College**, Sivakasi, for their continuous support and guidance.
